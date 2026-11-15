@@ -20,8 +20,10 @@ from nsh.primitives import (
     tab,
     tabs,
     text,
+    video,
     view,
 )
+from nsh.primitives.video import Video, VideoInfo, VideoProgress
 
 __all__ = [
     "Component",
@@ -31,6 +33,9 @@ __all__ = [
     "Element",
     "Signal",
     "Timer",
+    "Video",
+    "VideoInfo",
+    "VideoProgress",
     "Window",
     "__version__",
     "alert",
@@ -60,5 +65,6 @@ __all__ = [
     "table",
     "tabs",
     "text",
+    "video",
     "view",
 ]
