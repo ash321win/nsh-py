@@ -9,7 +9,19 @@ from nsh._runtime import run
 from nsh._signals import Computed, Signal, computed, signal
 from nsh._window import Window, current_window, quit
 from nsh.components import badge, button, card, separator, skeleton, table
-from nsh.primitives import checkbox, image, input, progress, scroll, select, switch, text, view
+from nsh.primitives import (
+    checkbox,
+    image,
+    input,
+    progress,
+    scroll,
+    select,
+    switch,
+    tab,
+    tabs,
+    text,
+    view,
+)
 
 __all__ = [
     "Component",
@@ -43,7 +55,9 @@ __all__ = [
     "signal",
     "skeleton",
     "switch",
+    "tab",
     "table",
+    "tabs",
     "text",
     "view",
 ]
